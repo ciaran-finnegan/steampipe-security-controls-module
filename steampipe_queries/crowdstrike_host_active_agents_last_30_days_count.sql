@@ -1,0 +1,1 @@
+select COUNT (*) from crowdstrike_host where last_seen >= NOW() - INTERVAL '30 DAYS'

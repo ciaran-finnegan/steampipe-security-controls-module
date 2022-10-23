@@ -1,0 +1,239 @@
+
+{
+	"group_id": "root_result_group",
+	"title": "",
+	"description": "",
+	"tags": {},
+	"summary": {
+  "status": {
+    "alarm": 114,
+    "ok": 1365,
+    "info": 0,
+    "skip": 32,
+    "error": 0
+  }
+},
+	"groups": [{
+	"group_id": "mod.local",
+	"title": "steampipe_dashboard",
+	"description": "",
+	"tags": {},
+	"summary": {
+  "status": {
+    "alarm": 114,
+    "ok": 1365,
+    "info": 0,
+    "skip": 32,
+    "error": 0
+  }
+},
+	"groups": [{
+	"group_id": "local.benchmark.isms",
+	"title": "Security Controls Reporting Dashboard",
+	"description": "",
+	"tags": {},
+	"summary": {
+  "status": {
+    "alarm": 114,
+    "ok": 1365,
+    "info": 0,
+    "skip": 32,
+    "error": 0
+  }
+},
+	"groups": [{
+	"group_id": "local.benchmark.iam",
+	"title": "Identity and Access Management",
+	"description": "",
+	"tags": {},
+	"summary": {
+  "status": {
+    "alarm": 29,
+    "ok": 1347,
+    "info": 0,
+    "skip": 14,
+    "error": 0
+  }
+},
+	"groups":  [], 
+	"controls": [{
+	"summary": {
+  "alarm": 20,
+  "ok": 668,
+  "info": 0,
+  "skip": 7,
+  "error": 0
+},
+	"control_id": "control.IAM_001",
+	"description": "",
+	"severity": "",
+	"tags": {},
+	"title": "IAM-001 - Dormant Okta accounts are accounts that have not logged on in the last 30 days",
+	"run_status": 4,
+	"run_error": ""
+},{
+	"summary": {
+  "alarm": 9,
+  "ok": 679,
+  "info": 0,
+  "skip": 7,
+  "error": 0
+},
+	"control_id": "control.IAM_002",
+	"description": "",
+	"severity": "",
+	"tags": {},
+	"title": "IAM-002 - Active Okta accounts with MFA configured",
+	"run_status": 4,
+	"run_error": ""
+}
+	] 
+} ,{
+	"group_id": "local.benchmark.inf",
+	"title": "Infrastructure",
+	"description": "",
+	"tags": {},
+	"summary": {
+  "status": {
+    "alarm": 23,
+    "ok": 13,
+    "info": 0,
+    "skip": 18,
+    "error": 0
+  }
+},
+	"groups":  [], 
+	"controls": [{
+	"summary": {
+  "alarm": 12,
+  "ok": 0,
+  "info": 0,
+  "skip": 6,
+  "error": 0
+},
+	"control_id": "control.INF_001",
+	"description": "Protect against spoofing \u0026 phishing, and help prevent messages from being marked as spam. See https://support.google.com/a/answer/2466563?hl=en for more details.",
+	"severity": "",
+	"tags": {},
+	"title": "INF-001 - Organisational email domains without DMARC configured",
+	"run_status": 4,
+	"run_error": ""
+},{
+	"summary": {
+  "alarm": 5,
+  "ok": 7,
+  "info": 0,
+  "skip": 6,
+  "error": 0
+},
+	"control_id": "control.INF_002",
+	"description": "Protect against spoofing \u0026 phishing, and help prevent messages from being marked as spam. See https://support.google.com/a/answer/33786?hl=en for more details.",
+	"severity": "",
+	"tags": {},
+	"title": "INF-002 - Organisational email domains without SPF configured",
+	"run_status": 4,
+	"run_error": ""
+},{
+	"summary": {
+  "alarm": 6,
+  "ok": 6,
+  "info": 0,
+  "skip": 6,
+  "error": 0
+},
+	"control_id": "control.INF_003",
+	"description": "Protect against spoofing \u0026 phishing, and help prevent messages from being marked as spam. See https://support.google.com/a/topic/2752442?hl=en\u0026ref_topic=9061731 for more details.",
+	"severity": "",
+	"tags": {},
+	"title": "INF-003 - Organisational email domains without DKIM configured",
+	"run_status": 4,
+	"run_error": ""
+}
+	] 
+} ,{
+	"group_id": "local.benchmark.sec",
+	"title": "Security",
+	"description": "",
+	"tags": {},
+	"summary": {
+  "status": {
+    "alarm": 22,
+    "ok": 1,
+    "info": 0,
+    "skip": 0,
+    "error": 0
+  }
+},
+	"groups":  [], 
+	"controls": [{
+	"summary": {
+  "alarm": 22,
+  "ok": 1,
+  "info": 0,
+  "skip": 0,
+  "error": 0
+},
+	"control_id": "control.SEC_002",
+	"description": "",
+	"severity": "",
+	"tags": {},
+	"title": "SEC-002 - % of in-scope personnel compute devices with a Crowdstrike Agent Zero Trust Score for OS of 100",
+	"run_status": 4,
+	"run_error": ""
+}
+	] 
+} ,{
+	"group_id": "local.benchmark.vul",
+	"title": "Vulnerability Management",
+	"description": "",
+	"tags": {},
+	"summary": {
+  "status": {
+    "alarm": 40,
+    "ok": 4,
+    "info": 0,
+    "skip": 0,
+    "error": 0
+  }
+},
+	"groups":  [], 
+	"controls": [{
+	"summary": {
+  "alarm": 20,
+  "ok": 2,
+  "info": 0,
+  "skip": 0,
+  "error": 0
+},
+	"control_id": "control.VUL_001",
+	"description": "",
+	"severity": "",
+	"tags": {},
+	"title": "VUL-001 - % of personal compute devices without open critical or high severity vulnerabilities",
+	"run_status": 4,
+	"run_error": ""
+},{
+	"summary": {
+  "alarm": 20,
+  "ok": 2,
+  "info": 0,
+  "skip": 0,
+  "error": 0
+},
+	"control_id": "control.VUL_002",
+	"description": "",
+	"severity": "",
+	"tags": {},
+	"title": "VUL-002 - % of Critical and High personal compute vulnerabilities remediated within service level objectives (SLOs) over the last 30 days",
+	"run_status": 4,
+	"run_error": ""
+}
+	] 
+} 
+	], 
+	"controls":  null 
+} 
+	], 
+	"controls":  null 
+} 
+	], "controls":  null } 
